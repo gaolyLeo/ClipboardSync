@@ -25,6 +25,7 @@ import win32clipboard  # Windows clipboard integration
 | **Mobile Optimization**         | 60s timeout with keepalive packets          | Works reliably on high-latency networks     |
 
 ### 📂Project Structure
+```
 .
 ├── README.md
 ├── requirements.txt
@@ -40,6 +41,7 @@ import win32clipboard  # Windows clipboard integration
 │ ├── telegram_handler.py
 │ └── main.py
 └── screenshots/ 
+```
  
 ## 🛠 Installation
 ### Windows Setup
