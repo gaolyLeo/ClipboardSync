@@ -47,11 +47,8 @@ class ClipboardSync:
 
 if __name__ == '__main__':
     # Load configuration from environment variables
-    # os.environ['TG_API_ID'] = 'YOUR_API_ID'
-    # os.environ['TG_API_HASH'] = 'YOUR_API_HASH'
-    # os.environ['TG_PHONE'] = 'YOUR_PHONE_NUMBER'
-    os.environ['TG_API_ID'] = '22723964'
-    os.environ['TG_API_HASH'] = '9cf771f2f485dac778e058b9800b2d9b'
-    os.environ['TG_PHONE'] = '+85294931574'
+    os.environ['TG_API_ID'] = 'YOUR_API_ID'
+    os.environ['TG_API_HASH'] = 'YOUR_API_HASH'
+    os.environ['TG_PHONE'] = 'YOUR_PHONE_NUMBER'
     app = ClipboardSync()
     asyncio.run(app.start())
